@@ -12,30 +12,30 @@ export default function Airlines() {
   return (
     <div className="flex items-center justify-center gap-9 pt-5 ">
       <div className="">
-        <Image src={airpeace} width={100} height={100} />
+        <Image src={airpeace} width={100} height={100} alt="airpeace"/>
       </div>
 
       <div className="">
-        <Image src={ethiopia} width={100} height={100} />
+        <Image src={ethiopia} width={100} height={100} alt="ethiopia" />
       </div>
       <div className="">
-        <Image src={egypt} width={70} height={100} />
-      </div>
-
-      <div className="">
-        <Image src={qatarAir} width={70} height={100} />
+        <Image src={egypt} width={70} height={100} alt="egypt" />
       </div>
 
       <div className="">
-        <Image src={brithish} width={100} height={100} />
+        <Image src={qatarAir} width={70} height={100} alt="qatarAir" />
       </div>
 
       <div className="">
-        <Image src={turkish} width={130} height={100} />
+        <Image src={brithish} width={100} height={100} alt="brithish" />
       </div>
 
       <div className="">
-        <Image src={emirate} width={70} />
+        <Image src={turkish} width={130} height={100} alt="turkish" />
+      </div>
+
+      <div className="">
+        <Image src={emirate} width={70} alt="emirate" />
       </div>
     </div>
   );
